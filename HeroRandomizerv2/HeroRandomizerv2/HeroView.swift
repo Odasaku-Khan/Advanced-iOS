@@ -12,6 +12,30 @@ struct HeroView: View {
             } else if let hero = hero {
                 ScrollView {
                     VStack(alignment: .leading) {
+                        if let imageUrl = hero.images.lg, let url=URL(string: imageUrl){
+                            AsyncImage(url: url) { phase in
+                                switch phase {
+                                case.empty: ProgressView()
+                                        .frame(height: 300)
+                                case .success(let image):
+                                    image
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(maxWidth: .infinity)
+                                        .frame(height: 300)
+                                case .failure:
+                                    Image(systemName: "photo")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .foregroundColor(.gray)
+                                    @unknown default:
+                                    EmptyView()
+                                }
+                                
+                            }
+                            .padding(.bottom)
+                            
+                        }
                         Text(hero.name)
                             .font(.largeTitle)
                             .padding(.bottom, 8)

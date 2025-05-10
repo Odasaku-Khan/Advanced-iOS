@@ -17,10 +17,11 @@ class ImageViewModel:ObservableObject{
                    let urlString = httpResponse.url?.absoluteString {
                     let image=ImageModel(url: urlString)
                     newImage.append(image)
+                    group.leave()
                 } else {
                     print("Error fetching image URL")
                 }
-                group.leave()
+//                group.leave()
             }.resume()
         }
         group.notify(queue: .main) {
