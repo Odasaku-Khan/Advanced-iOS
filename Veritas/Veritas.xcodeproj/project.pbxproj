@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516E849E2DD26A9600EE769C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 516E849D2DD26A9600EE769C /* FirebaseAuth */; };
+		516E84A02DD26A9600EE769C /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 516E849F2DD26A9600EE769C /* FirebaseAuthCombine-Community */; };
+		516E84A22DD26A9600EE769C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 516E84A12DD26A9600EE769C /* FirebaseCore */; };
+		516E84A52DD26AD800EE769C /* R2Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 516E84A42DD26AD800EE769C /* R2Shared */; };
+		516E84A82DD26AF500EE769C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 516E84A72DD26AF500EE769C /* GoogleSignIn */; };
+		516E84AA2DD26AF500EE769C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 516E84A92DD26AF500EE769C /* GoogleSignInSwift */; };
+		516E84B82DD26D2500EE769C /* StoredBook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E84B72DD26D2200EE769C /* StoredBook+CoreDataClass.swift */; };
+		516E84BA2DD26D3800EE769C /* StoredBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E84B92DD26D3600EE769C /* StoredBook+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51B7981D2DD2681C0070185A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B798022DD268190070185A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B798092DD268190070185A;
+			remoteInfo = Veritas;
+		};
+		51B798272DD2681C0070185A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B798022DD268190070185A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B798092DD268190070185A;
+			remoteInfo = Veritas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		516E84B72DD26D2200EE769C /* StoredBook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoredBook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		516E84B92DD26D3600EE769C /* StoredBook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoredBook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		51B7980A2DD268190070185A /* Veritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veritas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B7981C2DD2681C0070185A /* VeritasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeritasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B798262DD2681C0070185A /* VeritasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeritasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		51B7980C2DD268190070185A /* Veritas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Veritas;
+			sourceTree = "<group>";
+		};
+		51B7981F2DD2681C0070185A /* VeritasTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VeritasTests;
+			sourceTree = "<group>";
+		};
+		51B798292DD2681C0070185A /* VeritasUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VeritasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B798072DD268190070185A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E84A82DD26AF500EE769C /* GoogleSignIn in Frameworks */,
+				516E849E2DD26A9600EE769C /* FirebaseAuth in Frameworks */,
+				516E84A22DD26A9600EE769C /* FirebaseCore in Frameworks */,
+				516E84AA2DD26AF500EE769C /* GoogleSignInSwift in Frameworks */,
+				516E84A02DD26A9600EE769C /* FirebaseAuthCombine-Community in Frameworks */,
+				516E84A52DD26AD800EE769C /* R2Shared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B798192DD2681C0070185A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B798232DD2681C0070185A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B798012DD268190070185A = {
+			isa = PBXGroup;
+			children = (
+				516E84B92DD26D3600EE769C /* StoredBook+CoreDataProperties.swift */,
+				516E84B72DD26D2200EE769C /* StoredBook+CoreDataClass.swift */,
+				51B7980C2DD268190070185A /* Veritas */,
+				51B7981F2DD2681C0070185A /* VeritasTests */,
+				51B798292DD2681C0070185A /* VeritasUITests */,
+				51B7980B2DD268190070185A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51B7980B2DD268190070185A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51B7980A2DD268190070185A /* Veritas.app */,
+				51B7981C2DD2681C0070185A /* VeritasTests.xctest */,
+				51B798262DD2681C0070185A /* VeritasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51B798092DD268190070185A /* Veritas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B798302DD2681C0070185A /* Build configuration list for PBXNativeTarget "Veritas" */;
+			buildPhases = (
+				51B798062DD268190070185A /* Sources */,
+				51B798072DD268190070185A /* Frameworks */,
+				51B798082DD268190070185A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				51B7980C2DD268190070185A /* Veritas */,
+			);
+			name = Veritas;
+			packageProductDependencies = (
+				516E849D2DD26A9600EE769C /* FirebaseAuth */,
+				516E849F2DD26A9600EE769C /* FirebaseAuthCombine-Community */,
+				516E84A12DD26A9600EE769C /* FirebaseCore */,
+				516E84A42DD26AD800EE769C /* R2Shared */,
+				516E84A72DD26AF500EE769C /* GoogleSignIn */,
+				516E84A92DD26AF500EE769C /* GoogleSignInSwift */,
+			);
+			productName = Veritas;
+			productReference = 51B7980A2DD268190070185A /* Veritas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51B7981B2DD2681C0070185A /* VeritasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B798332DD2681C0070185A /* Build configuration list for PBXNativeTarget "VeritasTests" */;
+			buildPhases = (
+				51B798182DD2681C0070185A /* Sources */,
+				51B798192DD2681C0070185A /* Frameworks */,
+				51B7981A2DD2681C0070185A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51B7981E2DD2681C0070185A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				51B7981F2DD2681C0070185A /* VeritasTests */,
+			);
+			name = VeritasTests;
+			packageProductDependencies = (
+			);
+			productName = VeritasTests;
+			productReference = 51B7981C2DD2681C0070185A /* VeritasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51B798252DD2681C0070185A /* VeritasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B798362DD2681C0070185A /* Build configuration list for PBXNativeTarget "VeritasUITests" */;
+			buildPhases = (
+				51B798222DD2681C0070185A /* Sources */,
+				51B798232DD2681C0070185A /* Frameworks */,
+				51B798242DD2681C0070185A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51B798282DD2681C0070185A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				51B798292DD2681C0070185A /* VeritasUITests */,
+			);
+			name = VeritasUITests;
+			packageProductDependencies = (
+			);
+			productName = VeritasUITests;
+			productReference = 51B798262DD2681C0070185A /* VeritasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B798022DD268190070185A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					51B798092DD268190070185A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					51B7981B2DD2681C0070185A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 51B798092DD268190070185A;
+					};
+					51B798252DD2681C0070185A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 51B798092DD268190070185A;
+					};
+				};
+			};
+			buildConfigurationList = 51B798052DD268190070185A /* Build configuration list for PBXProject "Veritas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51B798012DD268190070185A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				516E849C2DD26A9600EE769C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				516E84A32DD26AD800EE769C /* XCRemoteSwiftPackageReference "r2-shared-swift" */,
+				516E84A62DD26AF500EE769C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 51B7980B2DD268190070185A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51B798092DD268190070185A /* Veritas */,
+				51B7981B2DD2681C0070185A /* VeritasTests */,
+				51B798252DD2681C0070185A /* VeritasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B798082DD268190070185A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B7981A2DD2681C0070185A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B798242DD2681C0070185A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51B798062DD268190070185A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516E84B82DD26D2500EE769C /* StoredBook+CoreDataClass.swift in Sources */,
+				516E84BA2DD26D3800EE769C /* StoredBook+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B798182DD2681C0070185A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B798222DD2681C0070185A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51B7981E2DD2681C0070185A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B798092DD268190070185A /* Veritas */;
+			targetProxy = 51B7981D2DD2681C0070185A /* PBXContainerItemProxy */;
+		};
+		51B798282DD2681C0070185A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B798092DD268190070185A /* Veritas */;
+			targetProxy = 51B798272DD2681C0070185A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51B7982E2DD2681C0070185A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51B7982F2DD2681C0070185A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51B798312DD2681C0070185A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Odasaku-Khan.Veritas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+				WATCHOS_DEPLOYMENT_TARGET = 19;
+			};
+			name = Debug;
+		};
+		51B798322DD2681C0070185A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Odasaku-Khan.Veritas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+				WATCHOS_DEPLOYMENT_TARGET = 19;
+			};
+			name = Release;
+		};
+		51B798342DD2681C0070185A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Odasaku-Khan.VeritasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veritas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veritas";
+			};
+			name = Debug;
+		};
+		51B798352DD2681C0070185A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Odasaku-Khan.VeritasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veritas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veritas";
+			};
+			name = Release;
+		};
+		51B798372DD2681C0070185A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Odasaku-Khan.VeritasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veritas;
+			};
+			name = Debug;
+		};
+		51B798382DD2681C0070185A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Odasaku-Khan.VeritasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veritas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51B798052DD268190070185A /* Build configuration list for PBXProject "Veritas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B7982E2DD2681C0070185A /* Debug */,
+				51B7982F2DD2681C0070185A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B798302DD2681C0070185A /* Build configuration list for PBXNativeTarget "Veritas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B798312DD2681C0070185A /* Debug */,
+				51B798322DD2681C0070185A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B798332DD2681C0070185A /* Build configuration list for PBXNativeTarget "VeritasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B798342DD2681C0070185A /* Debug */,
+				51B798352DD2681C0070185A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B798362DD2681C0070185A /* Build configuration list for PBXNativeTarget "VeritasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B798372DD2681C0070185A /* Debug */,
+				51B798382DD2681C0070185A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		516E849C2DD26A9600EE769C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		516E84A32DD26AD800EE769C /* XCRemoteSwiftPackageReference "r2-shared-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/readium/r2-shared-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		516E84A62DD26AF500EE769C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		516E849D2DD26A9600EE769C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 516E849C2DD26A9600EE769C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		516E849F2DD26A9600EE769C /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 516E849C2DD26A9600EE769C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		516E84A12DD26A9600EE769C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 516E849C2DD26A9600EE769C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		516E84A42DD26AD800EE769C /* R2Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 516E84A32DD26AD800EE769C /* XCRemoteSwiftPackageReference "r2-shared-swift" */;
+			productName = R2Shared;
+		};
+		516E84A72DD26AF500EE769C /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 516E84A62DD26AF500EE769C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		516E84A92DD26AF500EE769C /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 516E84A62DD26AF500EE769C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 51B798022DD268190070185A /* Project object */;
+}

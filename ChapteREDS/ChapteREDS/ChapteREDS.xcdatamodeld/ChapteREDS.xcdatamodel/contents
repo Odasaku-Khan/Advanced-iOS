@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788" systemVersion="24E263" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="StoredBook" representedClassName="StoredBook" syncable="YES">
+        <attribute name="authors" optional="YES" attributeType="String"/>
+        <attribute name="coverImageURL" optional="YES" attributeType="String"/>
+        <attribute name="downloadDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gutendexId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="localFilePath" optional="YES" attributeType="String"/>
+        <attribute name="mediaType" optional="YES" attributeType="String"/>
+        <attribute name="sourceURL" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="gutendexId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+        <userInfo>
+            <entry key="gutendexId" value="uniqueGutendexId"/>
+        </userInfo>
+    </entity>
+</model>
